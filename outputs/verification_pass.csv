@@ -1,0 +1,12 @@
+check,result,detail
+raw responses reproduce the national panel,pass,"1500 periods sampled, 0 mismatches"
+panel contains no period absent from the cached responses,pass,"52486 panel periods, 52486 cached periods"
+audit stage reproduces identical outputs on re-execution,pass,5 of 5 files identical by checksum
+simulation stage reproduces identical results on re-execution,pass,"energy bracket, 6 rows, savings [6.7059, 7.8526, 6.7059, 7.8526, 6.7059, 7.8526]"
+re-executed simulation matches the stored values numerically,pass,
+every decimal and long integer in the rendered PDF traces to a result file,pass,"740 traced, 2 structural, 29 short integers, 0 untraced"
+rendered PDF carries the headline value 10.06,pass,
+rendered PDF carries the headline value 89.18,pass,
+rendered PDF carries the headline value 37.97,pass,
+rendered PDF carries the headline value 272,pass,
+"rendered PDF carries the headline value 34,252",pass,

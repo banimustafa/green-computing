@@ -1,0 +1,123 @@
+group,claim,value,source,status
+held-out,S1_published B=4 threshold saving,3.92,phase5_held_out.csv,match
+held-out,S1_published B=4 percentile saving,2.73,phase5_held_out.csv,match
+held-out,S1_published B=4 lyapunov saving,3.92,phase5_held_out.csv,match
+held-out,S1_published B=4 horizon saving,5.11,phase5_held_out.csv,match
+held-out,S1_published B=4 share of foresight,76.95,phase5_held_out.csv,match
+held-out,S1_published B=4 oracle saving,6.64,phase5_held_out.csv,match
+held-out,S1_published B=12 threshold saving,7.15,phase5_held_out.csv,match
+held-out,S1_published B=12 percentile saving,4.95,phase5_held_out.csv,match
+held-out,S1_published B=12 lyapunov saving,7.43,phase5_held_out.csv,match
+held-out,S1_published B=12 horizon saving,8.90,phase5_held_out.csv,match
+held-out,S1_published B=12 share of foresight,86.21,phase5_held_out.csv,match
+held-out,S1_published B=12 oracle saving,10.32,phase5_held_out.csv,match
+held-out,S1_published B=24 threshold saving,7.97,phase5_held_out.csv,match
+held-out,S1_published B=24 percentile saving,4.96,phase5_held_out.csv,match
+held-out,S1_published B=24 lyapunov saving,8.84,phase5_held_out.csv,match
+held-out,S1_published B=24 horizon saving,10.06,phase5_held_out.csv,match
+held-out,S1_published B=24 share of foresight,89.18,phase5_held_out.csv,match
+held-out,S1_published B=24 oracle saving,11.28,phase5_held_out.csv,match
+held-out,S2_day_ahead B=4 horizon saving,5.34,phase5_held_out.csv,match
+held-out,S2_day_ahead B=4 share of foresight,80.34,phase5_held_out.csv,match
+held-out,S2_day_ahead B=12 horizon saving,7.73,phase5_held_out.csv,match
+held-out,S2_day_ahead B=12 share of foresight,74.90,phase5_held_out.csv,match
+held-out,S2_day_ahead B=24 horizon saving,7.89,phase5_held_out.csv,match
+held-out,S2_day_ahead B=24 share of foresight,69.95,phase5_held_out.csv,match
+held-out,B=4 interval low,4.07,phase5_held_out.csv,match
+held-out,B=4 interval high,6.16,phase5_held_out.csv,match
+held-out,B=12 interval low,6.65,phase5_held_out.csv,match
+held-out,B=12 interval high,11.11,phase5_held_out.csv,match
+held-out,B=24 interval low,7.91,phase5_held_out.csv,match
+held-out,B=24 interval high,12.15,phase5_held_out.csv,match
+signals,S1 published held-out MAE,9.45,phase3e_signal_accuracy.csv,match
+signals,S2 day-ahead held-out MAE,37.97,phase3e_signal_accuracy.csv,match
+signals,24 h persistence held-out MAE,39.52,phase3e_signal_accuracy.csv,match
+signals,S2 held-out correlation,0.554,phase3e_signal_accuracy.csv,match
+headroom,utilisation 0.60,12.83,phase3c_utilisation.csv,match
+headroom,utilisation 0.74,9.95,phase3c_utilisation.csv,match
+headroom,utilisation 0.82,6.71,phase3c_utilisation.csv,match
+headroom,utilisation 0.90,4.64,phase3c_utilisation.csv,match
+headroom,utilisation 0.98,1.04,phase3c_utilisation.csv,match
+energy,facility saving at idle 0.10,4.31,phase3d_energy_bracket.csv,match
+energy,facility saving at idle 0.30,3.22,phase3d_energy_bracket.csv,match
+energy,facility saving at idle 0.60,1.73,phase3d_energy_bracket.csv,match
+fairness,grant 0 h saving,7.85,phase3c_flexibility.csv,match
+fairness,grant 8 h saving,8.59,phase3c_flexibility.csv,match
+fairness,grant 12 h saving,8.84,phase3c_flexibility.csv,match
+fairness,grant 24 h saving,9.57,phase3c_flexibility.csv,match
+fairness,"worst tenant, no grant",125.95,phase3c_flexibility.csv,match
+fairness,"worst tenant, 24 h grant",117.49,phase3c_flexibility.csv,match
+fairness,Jain index under allocation sweep,0.99944,phase3c_fairness.csv,match
+spatial,0.85 temporal cap=nan,13.33,phase4_spatial_u85.csv,match
+spatial,0.85 spatial cap=nan,22.35,phase4_spatial_u85.csv,match
+spatial,0.85 spatiotemporal cap=nan,34.65,phase4_spatial_u85.csv,match
+spatial,0.85 spatiotemporal cap=2.0,34.63,phase4_spatial_u85.csv,match
+spatial,0.85 spatiotemporal cap=1.5,34.60,phase4_spatial_u85.csv,match
+spatial,0.85 spatiotemporal cap=1.1,16.30,phase4_spatial_u85.csv,match
+spatial,0.45 temporal cap=nan,28.08,phase4_spatial_u45.csv,match
+spatial,0.45 spatial cap=nan,58.92,phase4_spatial_u45.csv,match
+spatial,0.45 spatiotemporal cap=nan,71.75,phase4_spatial_u45.csv,match
+spatial,0.45 spatiotemporal cap=2.0,58.44,phase4_spatial_u45.csv,match
+spatial,0.45 spatiotemporal cap=1.5,44.01,phase4_spatial_u45.csv,match
+spatial,0.45 spatiotemporal cap=1.1,19.56,phase4_spatial_u45.csv,match
+spatial,"stress test, uncapped spatiotemporal",34.31,phase4_spatial_stress_u85.csv,match
+data,national periods retrieved,52486,audit_coverage.csv,match
+data,national periods expected,52608,audit_coverage.csv,match
+data,missing forecasts,43,audit_coverage.csv,match
+data,regional records,787185,audit_coverage.csv,match
+data,overall forecast MAE,9.68,audit_forecast_error.csv,match
+data,overall forecast RMSE,13.65,audit_forecast_error.csv,match
+data,overall correlation,0.975,audit_forecast_error.csv,match
+data,accounting correlation,0.962,audit_accounting.csv,match
+data,accounting offset,31.7,audit_accounting.csv,match
+workload,Delay-insensitive core-hour share,58.52,workload_class_summary.csv,match
+workload,Delay-insensitive machines,159615,workload_class_summary.csv,match
+workload,Interactive core-hour share,32.45,workload_class_summary.csv,match
+workload,Interactive machines,78478,workload_class_summary.csv,match
+workload,Unknown core-hour share,9.02,workload_class_summary.csv,match
+workload,Unknown machines,2457455,workload_class_summary.csv,match
+workload,Gini of deferrable core hours,0.826,workload_tenant_concentration.csv,match
+workload,top 1 per cent share,37.39,workload_tenant_concentration.csv,match
+workload,code requests,16803695,llm_inference_summary.csv,match
+workload,code peak-to-mean,3.09,llm_inference_summary.csv,match
+workload,conversation requests,27303999,llm_inference_summary.csv,match
+workload,conversation peak-to-mean,1.68,llm_inference_summary.csv,match
+context,unconstrained single-job saving at 24 h,30.86,audit_deferral_potential.csv,match
+context,single-job share of foresight at 24 h,84.55,audit_deferral_potential.csv,match
+monthly,"lowest month, published",4.90,phase5_monthly.csv,match
+monthly,"highest month, published",14.95,phase5_monthly.csv,match
+monthly,"lowest month, day-ahead",1.17,phase5_monthly.csv,match
+monthly,"winter mean, published",5.71,phase5_monthly.csv,match
+monthly,"summer mean, published",14.42,phase5_monthly.csv,match
+monthly,"winter mean, day-ahead",2.00,phase5_monthly.csv,match
+monthly,"summer mean, day-ahead",13.29,phase5_monthly.csv,match
+context,least work made worse,10.95,audit_deferral_potential.csv,match
+context,most work made worse,19.95,audit_deferral_potential.csv,match
+sensitivity,AI workload trace saving,7.85,phase6_ai_workload.csv,match
+sensitivity,AI workload ai_training saving,6.15,phase6_ai_workload.csv,match
+sensitivity,AI workload arrival cv,0.65,phase6_ai_workload.csv,match
+sensitivity,AI workload violations,0.38,phase6_ai_workload.csv,match
+sensitivity,lowest mix saving,2.92,phase6_tenant_sensitivity.csv,match
+sensitivity,highest mix saving,8.76,phase6_tenant_sensitivity.csv,match
+sensitivity,tight mix after grant,10.28,phase6_tenant_sensitivity.csv,match
+sensitivity,generous mix saving,8.76,phase6_tenant_sensitivity.csv,match
+sensitivity,bimodal spread before grant,12.9,phase6_tenant_sensitivity.csv,match
+held-out,capacity curve B=4,5.26,phase5_held_out.csv,match
+held-out,capacity curve B=12,8.08,phase5_held_out.csv,match
+held-out,capacity curve B=24,8.36,phase5_held_out.csv,match
+marginal,threshold scored on average,7.85,phase7_marginal_sensitivity.csv,match
+marginal,horizon scored on average,10.05,phase7_marginal_sensitivity.csv,match
+marginal,oracle scored on average,11.25,phase7_marginal_sensitivity.csv,match
+marginal,threshold scored on marginal,2.25,phase7_marginal_sensitivity.csv,match
+marginal,horizon scored on marginal,5.48,phase7_marginal_sensitivity.csv,match
+marginal,oracle scored on marginal,14.58,phase7_marginal_sensitivity.csv,match
+marginal,mean marginal factor,272,phase7_marginal_factors.csv,match
+marginal,lowest marginal factor,102,phase7_marginal_factors.csv,match
+marginal,highest marginal factor,446,phase7_marginal_factors.csv,match
+pairwise,distinguishable pairs,38,phase7_pairwise_policies.csv,match
+pairwise,capacity curve minus horizon at B=4,0.15,phase7_pairwise_policies.csv,match
+pairwise,capacity curve minus horizon at B=12,0.82,phase7_pairwise_policies.csv,match
+pairwise,capacity curve minus horizon at B=24,1.70,phase7_pairwise_policies.csv,match
+disclosure,original five-policy interval low,7.93,pre-amendment scoring,match
+disclosure,original five-policy interval high,12.16,pre-amendment scoring,match
+disclosure,imports factor used in the marginal estimate,328,intensity_factors.json (mean of three import factors),match

@@ -1,0 +1,43 @@
+check,result,detail,tolerance
+held-out: share of oracle equals saving divided by the oracle saving,pass,36 rows,1e-6
+held-out: mean lies inside its bootstrap interval,pass,36 rows,
+held-out: Holm-adjusted p is never below the raw p,pass,36 rows,
+held-out: months positive never exceeds months compared,pass,all strata have twelve months,
+monthly series averages to the reported held-out mean,pass,36 policy strata compared,0.005 pp
+monthly series covers twelve months in every stratum,pass,,
+pairwise differences equal the difference of the reported means,pass,90 pairs,0.005 pp
+pairwise: mean difference lies inside its bootstrap interval,pass,,
+pairwise: every comparison uses twelve paired months,pass,,
+design-period savings agree between the policy run and the signal run,pass,"6 comparisons, largest difference 0.057 pp, explained by the warm-up window",0.10 pp
+the signal run is shorter by exactly the day-ahead warm-up,pass,"34924 periods against 34252, difference 672","672 periods, fourteen days"
+flexibility sweep without a grant reproduces the design-period planner result,pass,no grant 7.85 against 7.85,0.05 pp
+fairness sweep at zero weight reproduces the same result,pass,,0.05 pp
+trace arm of the workload sensitivity reproduces the design-period result,pass,,0.05 pp
+energy bracket: work-carbon saving is invariant to the idle fraction at B=12,pass,"values [6.7059, 6.7059, 6.7059]",1e-6
+energy bracket: work-carbon saving is invariant to the idle fraction at B=24,pass,"values [7.8526, 7.8526, 7.8526]",1e-6
+energy bracket: facility saving falls as the idle fraction rises,pass,,
+deferral potential: realised share equals the ratio of the two savings,pass,6 budgets,1e-6
+deferral potential: perfect foresight is never beaten by the forecast,pass,,
+workload classes: core-hour shares sum to one hundred per cent,pass,100.000000,
+workload classes: machine counts sum to the trace total,pass,2695548,
+workload classes: machine shares sum to one hundred per cent,pass,100.0000,0.01
+inference summary: peak-to-mean equals peak divided by mean,pass,2 workloads,1e-6
+inference summary: request total matches the panel,pass,,
+coverage: recorded periods equal the rows in the national panel,pass,52486 against 52486,
+coverage: missing equals expected minus recorded,pass,,
+coverage: regional record count equals the regional panel,pass,,
+forecast error: overall MAE recomputes from the panel,pass,9.676220 against 9.676220,1e-6
+forecast error: overall RMSE recomputes from the panel,pass,,1e-6
+forecast error: stratum counts sum to the overall count within each level,pass,season and hour strata,1 period
+signal accuracy: held-out MAE of the published forecast recomputes from the panel,pass,9.453907,1e-6
+marginal factors: four seasons by twenty-four hours gives ninety-six bins,pass,96 bins,
+marginal factors: every estimate is positive and below the coal factor,pass,range 102 to 446,
+phase4_spatial_u85.csv: the carbon-agnostic baseline saves nothing,pass,,
+phase4_spatial_u85.csv: combined placement is at least as good as either alone,pass,,
+phase4_spatial_u85.csv: regional shares are consistent with the number of regions,pass,equal share is 7.14 per cent,
+phase4_spatial_u45.csv: the carbon-agnostic baseline saves nothing,pass,,
+phase4_spatial_u45.csv: combined placement is at least as good as either alone,pass,,
+phase4_spatial_u45.csv: regional shares are consistent with the number of regions,pass,equal share is 7.14 per cent,
+tenant sensitivity: the flexibility grant never lowers the saving,pass,,
+tenant sensitivity: the flexibility grant never widens the tenant spread,pass,,
+tenant sensitivity: the allocation lever moves the saving by less than 0.01 pp,pass,largest change 0.0000 pp,0.01 pp

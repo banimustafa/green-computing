@@ -1,0 +1,14 @@
+PLATFORM AND ENVIRONMENT RECORD
+generated: 2026-09-13T10:14:27Z
+
+[hardware]
+cpu_model: Intel(R) Xeon(R) Processor @ 2.10GHz
+cpu_cores: 1
+memory_total: 3.9Gi
+
+[software]
+os: Ubuntu 24.04.4 LTS
+kernel: 6.18.44-fc-v32
+python: Python 3.12.3
+interpreter_path: /usr/bin/python3
+cpu_count: 1

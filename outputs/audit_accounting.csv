@@ -1,0 +1,2 @@
+n_periods,pearson_r,mean_abs_diff_gCO2_kWh,median_abs_diff_gCO2_kWh,mean_signed_diff_gCO2_kWh,pct_within_10_gCO2_kWh,pct_within_25_gCO2_kWh
+52461,0.9618742235592195,31.944855168601432,32.28400000000002,31.68344147080688,10.331484340748366,34.39316825832523

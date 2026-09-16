@@ -1,0 +1,18 @@
+{ 
+  "data":[{ 
+    "Biomass": 120,
+    "Coal": 937,
+    "Dutch Imports": 474,
+    "French Imports": 53,
+    "Gas (Combined Cycle)": 394,
+    "Gas (Open Cycle)": 651,
+    "Hydro": 0,
+    "Irish Imports": 458,
+    "Nuclear": 0,
+    "Oil": 935,
+    "Other": 300,
+    "Pumped Storage": 0,
+    "Solar": 0,
+    "Wind": 0
+  }]
+}

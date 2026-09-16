@@ -1,0 +1,16 @@
+figure,sources,content
+fig1_signal_accuracy,phase3e_signal_accuracy.csv,MAE by signal and split; held-out correlation by signal
+fig2_held_out_saving,phase5_held_out.csv,"mean saving with bootstrap intervals and share of oracle, horizon policy, both signals"
+fig3_policy_comparison,phase5_held_out.csv,"held-out saving by policy and budget, published signal"
+fig4_energy_and_headroom,phase3d_energy_bracket.csv; phase3c_utilisation.csv,facility saving against idle fraction; saving against mean utilisation
+fig5_flexibility_grant,phase3c_flexibility.csv,saving and tenant intensity spread against granted deferral budget
+fig6_spatial_and_exposure,phase4_spatial_u85.csv; phase4_spatial_u45.csv,saving by placement mode; saving against cumulative exposure cap at two utilisations
+fig7_grid_structure,data/processed/national_intensity.csv,diurnal and seasonal shape and distribution of realised carbon intensity
+fig8_workload_structure,workload_class_summary.csv; data/processed/workload_vms.csv.gz; llm_inference_diurnal.csv,"core-hour shares by class, Lorenz curve of tenant concentration, inference demand shape"
+fig9_forecast_error_structure,data/processed/national_intensity.csv; audit_forecast_error.csv,"error distribution, error by hour, absolute and relative error by season"
+fig10_deferral_potential,audit_deferral_potential.csv,"oracle and forecast-guided saving for unconstrained placement, and the share of work made worse"
+fig11_monthly_held_out,phase5_monthly.csv,"saving in each of the twelve held-out months, both signals, two budgets"
+fig12_delay_carbon_trade,phase5_held_out.csv,"saving against mean delay for every policy and budget, published signal"
+fig13_workload_sensitivity,phase6_ai_workload.csv,policy savings under trace-derived and synthetic training arrivals at matched mean load
+fig14_tenant_sensitivity,phase6_tenant_sensitivity.csv,"saving and tenant inequality under five deferral-budget distributions, with both fairness levers"
+fig15_delay_and_flexibility,phase5_held_out.csv; phase3c_flexibility.csv,"carbon saving against mean delay for every policy and budget, and saving and tenant spread against the granted deferral budget"

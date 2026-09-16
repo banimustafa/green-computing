@@ -1,0 +1,2 @@
+n_periods,n_regions,mean_min_region_gCO2_kWh,mean_max_region_gCO2_kWh,mean_spread_gCO2_kWh,median_spread_gCO2_kWh,p90_spread_gCO2_kWh,mean_saving_best_region_pct
+52479,14,7.349987614093257,291.09958269021894,283.7495950761257,303.0,377.0,95.95604977632648

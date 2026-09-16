@@ -1,0 +1,4 @@
+series,records,expected_periods,missing_periods,missing_actual,missing_forecast,start,end
+national_intensity,52486,52608,122,0,43,2023-08-31 23:30:00+00:00,2026-08-31 23:00:00+00:00
+national_generation,52479,52608,129,0,0,2023-08-31 23:30:00+00:00,2026-08-31 23:00:00+00:00
+regional_intensity,787185,789120,1935,787185,0,2023-08-31 23:30:00+00:00,2026-08-31 23:00:00+00:00
